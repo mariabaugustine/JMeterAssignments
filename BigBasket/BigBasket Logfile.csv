@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1705635915645,2678,Homepage HTTP Request,200,OK,BB Thread Group 1-1,text,true,,479722,298,1,1,https://www.bigbasket.com:443/,579,0,529
+1705635915645,579,Homepage HTTP Request-0,301,Moved Permanently,BB Thread Group 1-1,text,true,,337,175,1,1,https://bigbasket.com/,579,0,529
+1705635916237,2086,Homepage HTTP Request-1,200,OK,BB Thread Group 1-1,text,true,,479385,123,1,1,https://www.bigbasket.com:443/,1838,0,271
+1705635918660,1630,Search HTTP Request,200,OK,BB Thread Group 1-1,text,true,,239475,1630,1,1,https://www.bigbasket.com:443/ps/?q=carrot,44,0,0
+1705635918660,44,Search HTTP Request-0,301,Moved Permanently,BB Thread Group 1-1,text,true,,348,455,1,1,https://bigbasket.com/ps?q=carrot,44,0,0
+1705635918705,103,Search HTTP Request-1,301,Moved Permanently,BB Thread Group 1-1,text,true,,1004,539,1,1,https://www.bigbasket.com:443/ps?q=carrot,103,0,0
+1705635918810,1480,Search HTTP Request-2,200,OK,BB Thread Group 1-1,text,true,,238123,636,1,1,https://www.bigbasket.com:443/ps/?q=carrot,1309,0,0
+1705635920340,788,Select Product HTTP Request,200,OK,BB Thread Group 1-1,text,true,,115468,1556,1,1,https://www.bigbasket.com:443/pd/10000071/fresho-carrot-orange-250-g/,42,0,0
+1705635920340,42,Select Product HTTP Request-0,301,Moved Permanently,BB Thread Group 1-1,text,true,,376,736,1,1,https://bigbasket.com/pd/10000071/fresho-carrot-orange-250-g/,42,0,0
+1705635920383,745,Select Product HTTP Request-1,200,OK,BB Thread Group 1-1,text,true,,115092,820,1,1,https://www.bigbasket.com:443/pd/10000071/fresho-carrot-orange-250-g/,589,0,0
